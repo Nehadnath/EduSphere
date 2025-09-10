@@ -48,7 +48,7 @@ export default function HomePage() {
             <span className="pink-gradient-text">Edu</span><span className="text-gray-800">Sphere</span>: Learn Deeper, Learn Smarter
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto hero-subtitle">
-            Transforming syllabuses into interactive, AI-powered knowledge — <span className="text-blossom-600 font-bold text-2xl">TOGETHER</span> ✨
+            Transforming syllabuses into interactive, AI-powered knowledge 
           </p>
           <Link
             href="/login"
@@ -75,41 +75,7 @@ export default function HomePage() {
       </section>
 
       {/* Feature Highlights */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="card hover:scale-105 transition-all duration-300 animate-slide-in-left">
-            <div className="w-12 h-12 bg-gradient-to-r from-blossom-100 to-rose-100 rounded-xl flex items-center justify-center mb-4">
-              <Brain className="h-6 w-6 text-blossom-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">AI-Powered Knowledge Trees</h3>
-            <p className="text-gray-600">Transform your syllabus into interactive, visual knowledge structures.</p>
-          </div>
 
-          <div className="card hover:scale-105 transition-all duration-300 animate-slide-up" style={{animationDelay: '0.1s'}}>
-            <div className="w-12 h-12 bg-gradient-to-r from-rose-100 to-pink-100 rounded-xl flex items-center justify-center mb-4">
-              <Video className="h-6 w-6 text-rose-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Intelligent Video Summaries</h3>
-            <p className="text-gray-600">Get AI-generated summaries and key insights from educational videos.</p>
-          </div>
-
-          <div className="card hover:scale-105 transition-all duration-300 animate-slide-up" style={{animationDelay: '0.2s'}}>
-            <div className="w-12 h-12 bg-gradient-to-r from-pink-100 to-fuchsia-100 rounded-xl flex items-center justify-center mb-4">
-              <Users className="h-6 w-6 text-pink-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Collaborative Study Spaces</h3>
-            <p className="text-gray-600">Study together with peers in shared, interactive learning environments.</p>
-          </div>
-
-          <div className="card hover:scale-105 transition-all duration-300 animate-slide-in-right" style={{animationDelay: '0.3s'}}>
-            <div className="w-12 h-12 bg-gradient-to-r from-fuchsia-100 to-purple-100 rounded-xl flex items-center justify-center mb-4">
-              <BookOpen className="h-6 w-6 text-fuchsia-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Personalized Study Tools</h3>
-            <p className="text-gray-600">Adaptive flashcards, quizzes, and study plans tailored to your progress.</p>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
